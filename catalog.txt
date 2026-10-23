@@ -1,0 +1,576 @@
+item	skin	nome	raridade	muzzle	gamepass	model	texturas	partes
+20rndFAL	CaseHardened	7.62x51 Mag | Case Hardened	Rare				Base	
+20rndFAL	Default	7.62x51 NATO 20-rounds Mag	NoRarity				Base	
+20rndFAL	Heli	7.62x51 Mag | Heli	Rare				Base	
+30rndFAL	Dart	7.62x51 NATO 30-rounds Mag | Dart Blaster	Rare				Base	
+30rndFAL	Default	7.62x51 NATO 30-rounds Mag	NoRarity				Base	
+6B2	Default	6B2	NoRarity				Base	
+6B2	Lifevest	6B2 | Lifevest	Common				Base	
+6B43	Adibass	6B45 | Adibass	Epic				Base	
+6B43	Anton	Anton's 6B45	Epic				Base	
+6B43	Crusader	6B45 | Crusader	Epic				Base	
+6B43	Default	6B45 "RATNIK"	NoRarity				Base	
+6B43	SpaceSuit	6B45 | Space Marine	Rare				Base	
+6B43	Valentine	6B45 | Valentine	Epic				Base	
+6B47	Default	6B47  "RATNIK"	NoRarity				Base	
+6B47	Freedom	6B47 | ESTDCU	Rare				Base	
+6B5	Default	6B5	NoRarity					
+6B5	Liquidator	6B5 Liquidator	Rare					
+762x25MAG	Arctic	7.62x25 35-round Mag | Arctic Stalker	Epic				Base	
+762x25MAG	Default	7.62x25 35-round Mag	NoRarity				Base	
+762x25MAG	Nutcracker	7.62x25 35-round Mag | Nutcracker	Legendary				Base	
+762x25MAG	Red40	7.62x25 35-round Mag | Red40	UnCommon				Base	
+762x25Rnd71Mag	Arctic	7.62x25 71-round Drum Mag | Arctic Stalker	Epic				Base	
+762x25Rnd71Mag	Default	7.62x25 71-round Drum Mag	NoRarity				Base	
+762x25Rnd71Mag	Red40	7.62x25 71-round Drum Mag | Red40	UnCommon				Base	
+762x25TTMAG	Default	7.62x25 8-round Mag	NoRarity				Base	
+762x25TTMAG	Soaker	7.62x25 8-round Mag | Soaker	Common				Base	
+762x25TTMAG	Watergun	7.62x25 8-round Mag | Super Wetter	Epic				Base	
+762x39ImprMAG	Banana	7.62x39 Mag | Banana	Legendary				Base	
+762x39ImprMAG	Default	7.62x39 20-round Mag	NoRarity				Base	
+762x39MAG	Adibass	7.62x39 30-rounds Mag | Adibass	Epic				Base	
+762x39MAG	Ancient	7.62x39 30-rounds Mag | Ancient	Rare				Base	
+762x39MAG	AnodizedRed	7.62x39 30-rounds Mag | Anodized Red	Epic				Base	
+762x39MAG	Default	7.62x39 30-round Mag	NoRarity				Base	
+762x39MAG	DeltaAnime	7.62x39 30-rounds Mag | 囁�	Mythical				Base	
+762x39MAG	Hunter	7.62x39 30-rounds Mag | Hunter	Rare				Base	
+762x39Rnd75Mag	Anton	Anton's 7.62x39 75-round Drum Mag	Epic				Base	
+762x39Rnd75Mag	Default	7.62x39 75-round Drum Mag	NoRarity				Base	
+762x39Rnd75Mag	Serpant	7.62x39 75-round Drum Mag | XSerpant	Epic				Base	
+762x39Rnd75Mag	Zenith	7.62x39 75-round Drum Mag | Zenith	Epic				Base	
+762x54Rnd10Mag	Default	7.62x54R 10-round Mag	NoRarity				Base	
+762x54Rnd10Mag	Galaxy	7.62x54R Mag 10-rounds Mag | Galaxy	UnCommon				Base	
+762x54Rnd10Mag	Hunter	7.62x54R Mag 10-rounds Mag | Hunter	Rare				Base	
+762x54Rnd10Mag	Marble	7.62x54R Mag 10-rounds Mag | Marble	Common				Base	
+762x54Rnd10Mag	Permafrost	7.62x54R Mag 10-rounds Mag | Permafrost	Epic				Base	
+762x54Rnd10Mag	Thunder	7.62x54R Mag 10-rounds Mag | Thunder	Epic				Base	
+762x54Rnd20Mag	Default	7.62x54R 20-round Mag	NoRarity				Base	
+762x54Rnd20Mag	Harpoon	7.62x54R Mag 20-rounds Mag | Harpoon	Legendary				Base	
+9x18vzMag	Default	9x18 20-round Mag	NoRarity				Base	
+9x18vzMag	GiftWrap	9x18 20round Mag | Gift Wrap	UnCommon				Base	
+9x19MP443MAG	Default	9x19 MP443 18-round Mag	NoRarity				Base	
+9x19MP443MAG	JollyRoger	9x19 MP443 18-round Mag | Jolly Roger	UnCommon				Base	
+9x19MP5MAG	Default	9x19 MP5 30-round Magazine	NoRarity				Base	
+9x19MP5MAG	Permafrost	9x19 MP5 30-rounds | Permafrost	Epic				Base	
+9x19MP5MAG	XR7	9x19 MP5 30-rounds | XR7	Epic				Base	
+9x39Mag	AnodizedRed	9x39 AS Val 20-rounds | Anodized Red	Epic				Base	
+9x39Mag	CyberRecon	9x39 AS Val 20-rounds | Cyber Recon	Rare				Base	
+9x39Mag	Default	9x39 AS Val 20-round	NoRarity				Base	
+9x39Mag	GiftWrap	9x39 AS Val 20-rounds | Gift Wrap	UnCommon				Base	
+9x39Mag	Shoreline	9x39 AS Val 20-rounds | Shoreline	Rare				Base	
+9x39Mag	Zenith	9x39 AS Val 20-rounds | Zenith	Epic				Base	
+9x39Rnd30Mag	AnodizedRed	9x39 AS Val 30-rounds | Anodized Red	Epic				Base	
+9x39Rnd30Mag	Default	9x39 AS Val 30-round	NoRarity				Base	
+9x39Rnd30Mag	Zenith	9x39 AS Val 30-rounds | Zenith	Epic				Base	
+ADAR15	Default	ADAR 2-15	NoRarity				Base,Bolt,RearSight	
+ADAR15	MTREX	ADAR15 | MTREX	Epic				RearSight,Bolt,Base	FrontADAR,PMAG10rnd,StockADAR
+ADAR15	Pool	ADAR15 | Pool	UnCommon				Base,Bolt,RearSight	FlashHiderM4,FrontADAR,PMAG10rnd,StockADAR
+AKM	Banana	AKM Improvised | Banana	Legendary				Base	20Rnd556,30rndFAL,762x39ImprMAG,AmmoBoxPKM100rnd,FrontPKM,HandleAKMN,HandleFAL,ImprFrontAKM,ImprHandleAKM,ImprStockAKM,Mag556,Mag556Rnd100,PMAG10rnd,PolymerStockFAL,StockPKM,TacticalFrontFAL
+AKM	Default	AKM Improvised	NoRarity				Base	
+AKMN	Adibass	AKMN | Adibass	Epic				Base	762x39MAG,FrontAKMN,FrontM4,HandleAKMN,HandleM4,Mag556,StockAKMN,StockM4
+AKMN	Ancient	AKMN | Ancient	Rare				Base	762x39MAG,FrontAKMN,StockAKMN
+AKMN	AnodizedRed	AKMN | Anodized Red	Epic				Base	762x39MAG,FrontM4,HandleM4,Mag556,MuzzleBrakeAKM,PolymerStockAKMN,StockM4,TacticalFrontAKMN
+AKMN	Anton	Anton's AKMN	Epic				Base	
+AKMN	Default	AKMN	NoRarity				Base	
+AKMN	DeltaAnime	AKMN | 囁�	Mythical	AnimeEffect			Base	762x39MAG,FrontAKMN,FrontM4,HandleM4,HandleRK3AKMN,Mag556,PolymerStockAKMN,StockM4
+AKMN	Hunter	AKMN | Hunter	Rare				Base	762x39MAG,FrontAKMN,HandleAKMN,StockAKMN
+AKMN	Serpant	AKMN | XSerpant	Epic				Base	762x39Rnd75Mag,HandleRK3AKMN,StockPT1AKMN,TacticalFrontAKMN
+AKMN	Zenith	AKMN | Zenith	Epic				Base	762x39Rnd75Mag,AllowMuzzle,Cold,DamageMult,Explosive,HRecoilMod,HandleAKMN,HandleRK3AKMN,Heat,Melee,MovementModifer,PBS1,Projectile,Radiation,Recoil,StockPT1AKMN,TacticalFrontAKMN,VRecoilMod
+Altyn	Adibass	Altyn Helmet | Adibass	Epic				Base	AltynVisor,MaskaVisor
+Altyn	Anton	Anton's Altyn Helmet	Epic				Base	
+Altyn	Crusader	Altyn Helmet | Crusader	Epic				Base	EmitCount,LinearVelocity,LowCutVisor,MaskaVisor,Number
+Altyn	Default	Altyn Helmet	NoRarity				Base	
+Altyn	Melon	Altyn Helmet | Watermelon	Rare				Base	9x18vzMag,Container,EmitCount,LinearVelocity,MaskaVisor,Shirt,Type
+Altyn	Pumpkin	Altyn Helmet | Pumpkin	UnCommon				Base	
+Altyn	Shark	Altyn Helmet | Shark	Epic				Base	
+Altyn	SpaceSuit	Altyn Helmet | Space Marine	Rare				Base	
+Altyn	Valentine	Altyn Helmet | Valentine	Epic				Base	EmitCount,FrontIZh81,MagTFZ98,MaskaVisor,RBX_ReimportId,ServerLocation
+Altyn	Visits100M	Altyn Helmet | 100M Gold	Epic				Base	
+Altyn	Zenith	Altyn Helmet | Zenith	Epic				Base	AltynVisor,MaskaVisor
+AltynVisor	Adibass	Altyn Visor | Adibass	Epic				Base	
+AltynVisor	Default	Altyn Visor	NoRarity				Base	
+AltynVisor	SpaceSuit	Altyn Visor | Space Marine	Rare				Base	
+AltynVisor	Visits100M	Altyn Visor | 100M Gold	Epic				Base	
+AltynVisor	Zenith	Altyn Visor | Zenith	Epic				Base	
+AmmoBoxPKM100rnd	Default	7.62x54 100-round Ammo Box	NoRarity				Base	
+AmmoBoxPKM100rnd	Thunder	7.62x54 Box | Thunder	Epic				Base	
+AsVal	AnodizedRed	AS Val | Anodized Red	Epic				Base	9x39Mag,9x39Rnd30Mag,FrontAsVal,HandleAsVal,Healing,Hunger,Hydration,Radiation,StockAsVal,UseTime
+AsVal	CyberRecon	AS Val | Cyber Recon	Rare				Base	20rndFAL,9x39Mag,FlashHiderFAL,FrontAsVal,FrontFAL,HRecoilMod,HandleAsVal,MuzzleDevice,Recoil,StockAsVal,StockFAL,VRecoilMod
+AsVal	Default	AS Val	NoRarity				Base	
+AsVal	GiftWrap	AS Val | Gift Wrap	UnCommon				Base	9x39Mag,FlashHiderM4,FrontAsVal,FrontM4,FrontTimberwolf,HandleAsVal,Mag556,MagR700,StockA5,StockAsVal,StockM4,TimberWolfSuppressor
+AsVal	PeaceWalker	AS Val | Peace Walker	UnCommon				Base	FrontAsVal,HandleAsVal,StockAsVal
+AsVal	Shoreline	AS Val | Shoreline	Rare				Base	9x39Mag,FrontAsVal,FrontTimberwolf,HandleAsVal,MagR700,StockA5,StockAsVal,TimberWolfSuppressor
+AsVal	Zenith	AS Val | Zenith	Epic				Base	9x39Mag,9x39Rnd30Mag,FrontAsVal,HandleAsVal,StockAsVal
+Attak5	Default	Raid Backpack "Attak-5" 60L	NoRarity				Base	
+Attak5	SpaceSuit	Attak5 | Life Support	UnCommon				Base	
+Balaclava	Anarchy	Balaclava | Anarchy	Epic				Base	
+Balaclava	Arctic	Balaclava | Arctic Commando	Epic				Base	
+Balaclava	Blackout	Balaclava | Blackout	Epic				Base	
+Balaclava	Default	Balaclava "Ninja"	NoRarity				Base	
+Balaclava	Tan	Tan Balaclava	Common				Base	
+Balaclava	XR7	Sewn Mask	Legendary					
+CamoPants	Adibass	Camo Pants | Adibass	Epic				Base	
+CamoPants	Anarchy	Camo Pants | Anarchy	Epic				Base	
+CamoPants	Blackout	Camo Pants | Blackout	Epic				Base	
+CamoPants	Default	Camo Pants	NoRarity				Base	
+CamoPants	EDF	EDF Uniform Pants	Common				Base	
+CamoPants	Freedom	Camo Pants | ESTDCU	Rare				Base	
+CamoPants	SpaceSuit	Camo Pants | Space Suit	Common				Base	
+CamoPants	TFZ	TFZ Uniform Pants	Epic				Base	
+CamoPants	TigerStripe	Camo Pants | Tiger Stripe	Common				Base	
+CamoPants	VOLK	Camo Pants | WOLF	UnCommon				Base	
+CamoPants	Valentine	Camo Pants | Valentine	Epic				Base	
+CamoPants	Woodland	Camo Pants | Woodland	Common				Base	
+CamoPants	XR7	Camo Pants | XR7	Epic				Base	
+CamoShirt	Adibass	Camo Shirt | Adibass	Epic				Base	
+CamoShirt	Anarchy	Camo Shirt | Anarchy	Epic				Base	
+CamoShirt	Blackout	Camo Shirt | Blackout	Epic				Base	
+CamoShirt	Default	Camo Shirt	NoRarity				Base	
+CamoShirt	EDF	EDF Uniform Shirt	Common				Base	
+CamoShirt	Freedom	Camo Shirt | ESTDCU	Rare				Base	
+CamoShirt	SpaceSuit	Camo Shirt | Space Suit	Common				Base	
+CamoShirt	TFZ	TFZ Uniform Shirt	Epic				Base	
+CamoShirt	TigerStripe	Camo Shirt | Tiger Stripe	Common				Base	
+CamoShirt	VOLK	Camo Shirt | WOLF	UnCommon				Base	
+CamoShirt	Valentine	Camo Shirt | Valentine	Epic				Base	
+CamoShirt	Woodland	Camo Shirt | Woodland	Common				Base	
+CamoShirt	XR7	Camo Shirt | XR7	Epic				Base	
+CivilianPants	Default	Suit	NoRarity				Base	
+CivilianPants	Patriot	Suit | Patriot	Epic				Base	
+CivilianShirt	Default	Suit	NoRarity				Base	
+CivilianShirt	Patriot	Suit | Patriot	Epic				Base	
+CombatGloves	Anarchy	Combat Gloves | Anarchy	Epic				Base	
+CombatGloves	Blackout	Combat Gloves | Blackout	Epic				Base	
+CombatGloves	Default	Combat Gloves	NoRarity				Base	
+CombatGloves	SpaceSuit	Combat Gloves | Space Suit	Common				Base	
+CombatGloves	Synthwave	Combat Gloves | Synthwave	UnCommon				Base	
+CombatGloves	Valentine	Combat Gloves | Valentine	Epic				Base	
+CombatGloves	Zenith	Combat Gloves | Zenith	Epic				Base	
+DefaultFrontMosin	Default	Mosin Front Assembly	NoRarity				Base	
+DefaultFrontMosin	SkullHunter	Mosin Front Assembly | Skull Hunter	Legendary				Base	
+DefaultFrontMosin	Tiger	Mosin Front Assembly | Tiger	Rare				Base	
+DefaultFrontMosin	WhiteDeath	Mosin Front Assembly | Gold	Legendary				Base	
+DefaultStockMosin	Default	Mosin Stock	NoRarity				Base	
+DefaultStockMosin	SkullHunter	Mosin Stock | Skull Hunter	Legendary				Base	
+DefaultStockMosin	Tiger	Mosin Stock | Tiger	Rare				Base	
+DefaultStockMosin	WhiteDeath	Mosin Stock | Gold	Legendary				Base	
+F1	Default	F1 Grenade	NoRarity				Base	
+F1	Pineapple	F1 Grenade | Pineapple	UnCommon				Base	
+FAL	CaseHardened	FAL | Case Hardened	Rare				Base,Rail	20rndFAL,FlashHiderFAL,FrontFAL,HRecoilMod,MuzzleDevice,Recoil,StockFAL,VRecoilMod
+FAL	Dart	FAL | Dart Blaster	Rare				Base,Rail	30rndFAL,FlashHiderM4,FrontADAR,HandleFAL,PMAG10rnd,PolymerStockFAL,StockADAR,TacticalFrontFAL
+FAL	Default	FN FAL	NoRarity				Base,Rail	
+FAL	Heli	FAL | Heli	Rare				Rail,Base	20Rnd556,30rndFAL,HandleFAL,Mag556,Mag556Rnd100,PMAG10rnd,PolymerStockFAL,TacticalFrontFAL
+FastMT	Anarchy	Fast MT Helmet | Anarchy	Epic				Base	EmitCount,FrontIZh81,LinearVelocity,MagTFZ98,MaskaVisor,RBX_ReimportId,ServerLocation,TitanShield
+FastMT	Blackout	Fast MT Helmet | Blackout	Epic				Base	FastVisor,QuadNVG
+FastMT	Default	Fast MT Helmet	NoRarity				Base	
+FastVisor	Blackout	Fast MT Visor | Blackout	Epic				Base	
+FastVisor	Default	Fast MT Visor	NoRarity				Base	
+FlashHiderFAL	CaseHardened	FAL F. Hider | Case Hardened	Rare				Base	
+FlashHiderFAL	Default	FN FAL Flash Hider	NoRarity				Base	
+FlashHiderFAL	Heli	FAL F. Hider | Heli	Rare				Base	
+FlashHiderM4	Apollo	M4 Flash Hider | Apollo	Legendary				Base	
+FlashHiderM4	Default	M4 Flash Hider	NoRarity				Base	
+FlashHiderM4	Devil	M4 Flash Hider | Devil	Mythical				Base	
+FlashHiderM4	Pool	M4 Flash Hider | Pool	UnCommon				Base	
+FlashHiderM4	Pumpkin	M4 Flash Hider | Pumpkin	UnCommon				Base	
+FlashHiderM4	XR7	M4 Flash Hider | XR7	Epic				Base	
+FlashHiderM4	Zenith	M4 Flash Hider | Zenith	Epic				Base	
+FrontADAR	Default	ADAR 2-15 Front Assembly	NoRarity				SurfaceAppearance	
+FrontADAR	MTREX	ADAR 2-15 Front Assembly | MTREX	Epic				Base	
+FrontADAR	Pool	ADAR 2-15 Front Assembly | Pool	UnCommon				Base	
+FrontAKMN	Adibass	AKMN Front Assembly | Adibass	Epic				Base	
+FrontAKMN	Ancient	AKMN Front Assembly | Ancient	Rare				Base	
+FrontAKMN	Default	AKMN Front Assembly	NoRarity				Base	
+FrontAKMN	DeltaAnime	AKMN Front Assembly | 囁�	Mythical				Base	
+FrontAKMN	Hunter	AKMN Front Assembly | Hunter	Rare				Base	
+FrontAsVal	AnodizedRed	AS Val Front Assembly | Anodized Red	Epic				Base	
+FrontAsVal	CyberRecon	AS Val Front Assembly | Cyber Recon	Rare				Base	
+FrontAsVal	Default	AS Val Front Assembly	NoRarity				Base	
+FrontAsVal	GiftWrap	AS Val Front Assembly | Gift Wrap	UnCommon				Base	
+FrontAsVal	PeaceWalker	AS Val Front Assembly | Peace Walker	UnCommon				Base	
+FrontAsVal	Shoreline	AS Val Front Assembly | Shoreline	Rare				Base	
+FrontAsVal	Zenith	AS Val Front Assembly | Zenith	Epic				Base	
+FrontFAL	CaseHardened	FAL Front | Case Hardened	Rare				Base	
+FrontFAL	Default	FN FAL Front Assembly	NoRarity				Base	
+FrontFAL	Heli	FAL Front | Heli	Rare				Base	
+FrontIZh12	Default	IZh-12 Front Assembly	NoRarity				Base	
+FrontIZh12	PeaceWalker	IZh-12 Front | Peace Walker	UnCommon				Base	
+FrontIZh12	Red40	IZh-12 Front | Red40	UnCommon				Base	
+FrontIZh81	Default	IZh-81 Front Assembly	NoRarity					
+FrontIZh81	Gingerbread	IZh-81 Front | Gingerbread	Rare				Base	
+FrontIZh81	Oasis	IZh-81 Front | Oasis	Common				Base	
+FrontIZh81	Watergun	IZh-81 Front | Super Wetter	Epic				Base	
+FrontM4	Apollo	M4 Front Assembly | Apollo	Legendary				Base	
+FrontM4	Default	M4 Front Assembly	NoRarity				Base	
+FrontM4	Devil	M4 Front Assembly | Devil	Mythical				Base	
+FrontM4	Diablo	M4 Front Assembly | El Diablo	Epic				Base	
+FrontM4	Freedom	M4 Front Assembly | Freedom Fighter	Epic				Base	
+FrontM4	Patriot	M4 Front Assembly | Patriot	Epic				Base	
+FrontM4	Pumpkin	M4 Front Assembly | Pumpkin	UnCommon				Base	
+FrontM4	Shark	M4 Front Assembly | Shark	Legendary				Base	
+FrontM4	Tan	M4 Front Assembly | Tan	Common				Base	
+FrontM4	Warhawk	M4 Front Assembly | Warhawk	Legendary				Base	
+FrontM4	Zenith	M4 Front Assembly | Zenith	Epic				Base	
+FrontMK12	Default	MK12 Front Assembly	NoRarity				Base	
+FrontMK12	Patriot	MK12 Front Assembly | Patriot	Epic				Base	
+FrontMK12	XR7	MK12 Front Assembly | XR7	Epic				Base	
+FrontMK12	Zenith	MK12 Front Assembly | Zenith	Epic				Base	
+FrontPKM	Default	PKM Front Assembly	NoRarity				Base	
+FrontPKM	Thunder	PKM Front Assembly | Thunder	Epic				Base	
+FrontSVD	Default	SVD Front Assembly	NoRarity				Base	
+FrontSVD	Galaxy	SVD Front Assembly | Galaxy	UnCommon				Base	
+FrontSVD	Hunter	SVD Front Assembly | Hunter	Rare				Base	
+FrontSVD	Marble	SVD Front Assembly | Marble	Common				Base	
+FrontSVD	Permafrost	SVD Front Assembly | Permafrost	Epic				Base	
+FrontSVD	Thunder	SVD Front Assembly | Thunder	Epic				Base	
+FrontSaiga	Default	Saiga Front Assembly	NoRarity				Base	
+FrontSaiga	Valentine	Saiga Front Assembly | Valentine	Legendary				Base	
+FrontTimberwolf	AnodizedRed	Timberwolf | Anodized Red	Epic				Base	
+FrontTimberwolf	Cyan01	Timberwolf | Cyan-01	Epic				Base	
+FrontTimberwolf	Default	Timberwolf barrel	NoRarity				Base	
+FrontTimberwolf	Rift	Timberwolf | Rift	Legendary				Base	
+FrontTimberwolf	Zenith	Timberwolf | Zenith	Epic				Base	
+GP5	Adibass	GP-5 Gas Mask | Adibass	Epic				Base	
+GP5	Default	GP-5 Gas Mask	NoRarity				Base	
+GP5	Stitches	GP-5 Gas Mask | Stitches	Common				Base	
+GP5Filter	Adibass	GP-5 Filter | Adibass	Epic				Base	
+GP5Filter	Default	GP-5 Filter	NoRarity				Base	
+GhillieHood	Arctic	Ghillie Hood | Arctic	Rare				Base	
+GhillieHood	Default	Ghillie Suit Hood	NoRarity				Base	
+GhillieLegs	Arctic	Ghillie Pants | Arctic	Rare				Base	
+GhillieLegs	Default	Ghillie Suit Pants	NoRarity				Base	
+GhillieTorso	Arctic	Ghillie Shirt | Arctic	Rare				Base	
+GhillieTorso	Default	Ghillie Suit Shirt	NoRarity				Base	
+GorkaPants	Adibass	Gorka Pants | Adibass	Epic				Base	
+GorkaPants	Default	Gorka Pants	NoRarity				Base	
+GorkaPants	Wetsuit	Gorka Pants | Wetsuit	Common				Base	
+GorkaPants	Zenith	Gorka Pants | Zenith	Epic				Base	
+GorkaShirt	Adibass	Gorka Shirt | Adibass	Epic				Base,Hood	
+GorkaShirt	Default	Gorka Shirt	NoRarity				Hood,Base	
+GorkaShirt	Wetsuit	Gorka Shirt | Wetsuit	Common				Base,Hood	
+GorkaShirt	Zenith	Gorka Shirt | Zenith	Epic				Base,Hood	
+Groza	Default	OTs-14-4 "Groza"	NoRarity				Base	
+Groza	Zenith	Groza-4 | Zenith	Epic				Base	GrozaMagazine,HandleAKMN,HandleRK3AKMN,Healing,Hunger,Hydration,MuzzleGripGroza,PBS1,Radiation,UseTime
+GrozaMagazine	Default	9x39 Groza 25-round	NoRarity				Base	
+GrozaMagazine	Zenith	9x39 Mag | Zenith	Epic				Base	
+HandWraps	Default	Hand wraps	NoRarity				Base	
+HandWraps	Hazard	Hand Wraps | Hazard	Rare				Base	
+HandWraps	SantaCommando	Hand Wraps | Santa Commando	Common				Base	
+HandWraps	TigerStripe	Hand Wraps | Tiger Stripe	Common				Base	
+HandleAKMN	Adibass	AKMN Handle | Adibass	Epic				Base	
+HandleAKMN	Default	AKMN Handle	NoRarity				Base	
+HandleAKMN	Hunter	AKMN Handle | Hunter	Rare				Base	
+HandleAKMN	Thunder	AKMN Handle | Thunder	Epic				Base	
+HandleAKMN	Valentine	AKMN Handle | Valentine	Legendary				Base	
+HandleAKMN	Zenith	AKMN Handle | Zenith	Epic				Base	
+HandleAsVal	AnodizedRed	AS Val Handle| Anodized Red	Epic				Base	
+HandleAsVal	CyberRecon	AS Val Handle| Cyber Recon	Rare				Base	
+HandleAsVal	Default	AS Val Handle	NoRarity				Base	
+HandleAsVal	GiftWrap	AS Val Handle| Gift Wrap	UnCommon				Base	
+HandleAsVal	PeaceWalker	AS Val Handle| Peace Walker	UnCommon				Base	
+HandleAsVal	Shoreline	AS Val Handle| Shoreline	Rare				Base	
+HandleAsVal	Zenith	AS Val Handle| Zenith	Epic				Base	
+HandleFAL	Dart	FN FAL Handle | Dart Blaster	Rare				Base	
+HandleFAL	Default	FN FAL Handle	NoRarity				Base	
+HandleFAL	Heli	FN FAL Handle | Heli	Rare				Base	
+HandleM4	Apollo	M4 Handle| Apollo	Legendary				Base	
+HandleM4	Default	M4 Handle	NoRarity				Base	
+HandleM4	Devil	M4 Handle| Devil	Mythical				Base	
+HandleM4	Shark	M4 Handle| Shark	Legendary				Base	
+HandleM4	Tan	M4 Handle| Tan	Common				Base	
+HandleM4	Warhawk	M4 Handle| Warhawk	Legendary				Base	
+HandleM4	XR7	M4 Handle| XR7	Epic				Base	
+HandleM4	Zenith	M4 Handle| Zenith	Epic				Base	
+HandleRK3AKMN	Default	RK-3 AK Handle	NoRarity				Base	
+HandleRK3AKMN	DeltaAnime	RK-3 AK Handle | 囁�	Mythical				Base	
+HandleRK3AKMN	Serpant	RK-3 AK Handle | XSerpant	Epic				Base	
+HandleRK3AKMN	Zenith	RK-3 AK Handle | Zenith	Epic				Base	
+IOTV4	Blackout	Improved Outer Tactical Vest | Blackout	Epic				Base	
+IOTV4	Default	Improved Outer Tactical Vest	NoRarity				Base	
+IOTV4	Shark	Improved Outer Tactical Vest | Shark	Epic				Base	
+IZh12	Default	IZh-12 Shotgun	NoRarity				Base	
+IZh12	PeaceWalker	IZh-12 | Peace Walker	UnCommon				Base	FrontIZh12,StockIZh12
+IZh12	Red40	IZh-12 | Red40	UnCommon				Base	FrontIZh12,StockIZh12
+IZh81	Default	IZh-81 Pump Shotgun	NoRarity					
+IZh81	Gingerbread	IZh-81 | Gingerbread	Rare				Base	9x19MP5MAG,FrontIZh81,StockIZh81,StockMP5
+IZh81	Oasis	IZh-81 | Oasis	Common				Base	FrontIZh81,StockIZh81
+IZh81	Watergun	IZh-81 | Super Wetter	Epic				Base	9x19MP5MAG,FrontIZh81,StockIZh81,StockMP5
+ImprFrontAKM	Banana	AKM-I Front | Banana	Legendary				Base	
+ImprFrontAKM	Default	Improvised AKM Front Assembly	NoRarity				Base	
+ImprHandleAKM	Banana	AKM-I Handle | Banana	Legendary				Base	
+ImprHandleAKM	Default	Improvised AKM Handle	NoRarity				Base	
+ImprStockAKM	Banana	AKM-I Stock | Banana	Legendary				Base	
+ImprStockAKM	Default	Improvised AKM Stock	NoRarity				Base	
+JPC	Anarchy	JPC "Rush" | Anarchy	Epic				Base	
+JPC	Blackout	JPC "Rush" | Blackout	Epic				Base	
+JPC	Default	JPC "Rush"	NoRarity				Base	
+JPC	Freedom	JPC "Rush" | ESTDCU	Rare				Base	
+KneePads	Blackout	Knee Pads | Blackout	Epic				Base	
+KneePads	Default	Knee Pads	NoRarity					
+Kulon	Default	Kora Kulon	NoRarity				Base	
+Kulon	Press	Kulon | Press	Common				Base	
+Kulon	XR7	Kulon | XR7	Epic				Base	
+LegArmor	Blackout	Improved Outer Lower Armor | Blackout	Epic				Base	
+LegArmor	Default	Improved Outer Lower Armor	NoRarity				Base	
+LegArmor	Valentine	Improved Outer Lower Armor | Valentine	Epic				Base	
+LegArmor	Woodland	Improved Outer Lower Armor | Woodland	Common				Base	
+Lighter	Default	Lighter	NoRarity				Base	
+Lighter	EarlyAccess	Early Access Lighter	Legendary				Base	
+Lighter	Pickle	Lighter | Ogurchik	Legendary				Base	
+LowCutVisor	Default	Low-Cut Visor	NoRarity				Base	
+LowCutVisor	XR7	Low-Cut Visor | XR7	Epic				Base	
+M4	Apollo	M4A1 | Apollo	Legendary				Bolt,Base	FlashHiderM4,FrontM4,HandleM4,Mag556,StockM4
+M4	Default	M4A1	NoRarity				Base,Bolt	
+M4	Devil	M4A1 | Devil	Mythical	DevilEffect			Base,Bolt	FlashHiderM4,FrontM4,HandleM4,Mag556,StockM4
+M4	Diablo	M4A1 | El Diablo	Epic				Bolt,Base	FrontM4,Mag556,StockM4
+M4	Freedom	M4A1 | Freedom Fighter	Epic				Base,Bolt	FrontM4,Mag556,StockM4
+M4	Patriot	M4A1 | Patriot	Epic				Bolt,Base	FrontM4,FrontMK12,Mag556
+M4	Pumpkin	M4A1 | Pumpkin	UnCommon			sim	Bolt,Base	FlashHiderM4,FrontM4,Mag556,StockM4
+M4	Shark	M4A1 | Shark	Legendary				Base,Bolt	FrontM4,HandleM4,Mag556,StockM4
+M4	Tan	M4A1 | Tan	Common				Bolt,Base	FrontM4,HandleM4,Mag556,StockM4
+M4	Warhawk	M4A1 | Warhawk	Legendary				Base,Bolt	FrontM4,HandleM4,Mag556,StockM4
+M4	XR7	M4A1 | XR7	Epic				Bolt,Base	FlashHiderM4,FrontMK12,Mag556,StockMK12
+M4	Zenith	M4A1 | Zenith	Epic				Base,Bolt	FlashHiderM4,FrontM4,FrontMK12,Mag556,Mag556Rnd100,Reapir,SOCOM556,StockM4,StockMK12
+MK23	Default	MK23 .45	NoRarity				Base	
+MK23	XR7	MK23 | XR7	Epic				Base	
+MK23ExtMag	Default	.45 MK23 17-round Mag	NoRarity				Base	
+MK23ExtMag	XR7	.45 MK23 17-round Mag| XR7	Epic				Base	
+MP443	Default	MP443 Yarygin Pistol	NoRarity				Base,Slide	
+MP443	JollyRoger	MP443 Yarygin Pistol | Jolly Roger	UnCommon				Base,Slide	
+MP443	Whiteout	MP443 Yarygin Pistol | Whiteout	Rare				Base,Slide	
+MP5SD	Default	MP5SD	NoRarity				Upper,Base,Suppressor	
+MP5SD	Permafrost	MP5SD | Permafrost	Epic				Base,Upper,Suppressor	9x19MP5MAG,StockMP5
+MP5SD	XR7	MP5SD | XR7	Epic				Base,Suppressor,Upper	9x19MP5MAG,StockMP5
+Mag556	Apollo	5.56x45 30-rounds Mag | Apollo	Legendary				Base	
+Mag556	Default	5.56x45 30-rounds Mag	NoRarity				Base	
+Mag556	Devil	5.56x45 30-rounds Mag | Devil	Mythical				Base	
+Mag556	Diablo	5.56x45 30-rounds Mag | El Diablo	Epic				Base	
+Mag556	Freedom	5.56x45 30-rounds Mag | Freedom Fighter	Epic				Base	
+Mag556	Patriot	5.56x45 30-rounds Mag | Patriot	Epic				Base	
+Mag556	Pumpkin	5.56x45 30-rounds Mag | Pumpkin	UnCommon				Base	
+Mag556	Shark	5.56x45 30-rounds Mag | Shark	Legendary				Base	
+Mag556	Tan	5.56x45 30-rounds Mag | Tan	Common				Base	
+Mag556	Warhawk	5.56x45 30-rounds Mag | Warhawk	Legendary				Base	
+Mag556	XR7	5.56x45 30-rounds Mag | XR7	Epic				Base	
+Mag556	Zenith	5.56x45 30-rounds Mag | Zenith	Epic				Base	
+Mag556Rnd100	Default	5.56x45 100-round Drum Mag	NoRarity				Base	
+Mag556Rnd100	Zenith	5.56x45 Drum Mag | Zenith	Epic				Base	
+MagR700	AnodizedRed	.338 Mag | Anodized Red	Epic				Base	
+MagR700	Cyan01	.338 Mag | Cyan-01	Epic				Base	
+MagR700	Default	.338 5-rounds Mag	NoRarity				Base	
+MagR700	Rift	.338 Mag | Rift	Legendary				Base	
+MagR700	Zenith	.338 Mag | Zenith	Epic				Base	
+MagTFZ98	Default	.338 5-rounds Mag	NoRarity				Base	
+MagTFZ98	Saboteur	.338 Mag | Saboteur	Common				Base	
+MagTFZ98	XR7	.338 Mag | XR7	Epic				Base	
+MagTFZ98	Zenith	.338 Mag | Zenith	Epic				Base	
+MagTOZ106	Default	12ga 3-rounds Mag	NoRarity				SurfaceAppearance	
+MagTOZ106	Soaker	12ga 3-rounds Mag | Soaker	UnCommon				Base	
+Makarov	Default	Pistol Makarov	NoRarity				Base,Slide	
+Makarov	Serpant	Makarov | Serpant	Epic				Slide,Base	
+MaskaVisor	Adibass	Maska Visor  | Adibass	Epic				Base	
+MaskaVisor	Anton	Anton's Maska Visor	Epic				Base	
+MaskaVisor	Crusader	Maska Visor  | Crusader	Epic				Base	
+MaskaVisor	Default	Maska Visor	NoRarity				Base	
+MaskaVisor	Melon	Maska Visor  | Watermelon	Rare				Base	
+MaskaVisor	Pumpkin	Maska Visor  | Pumpkin	UnCommon				Base	
+MaskaVisor	Shark	Maska Visor  | Shark	Epic				Base	
+MaskaVisor	Valentine	Maska Visor  | Valentine	Epic				Base	
+MaskaVisor	Zenith	Maska Visor  | Zenith	Epic				Base	
+Melee	Anarchy	Anarchy Tomahawk	Mythical					
+Melee	Arctic	Ice Axe	Mythical					
+Melee	Blackout	Karambit	Mythical					
+Melee	ButterflyKnife	Butterfly Knife	Mythical					
+Melee	Crusader	Longsword	Mythical					
+Melee	Cutlass	Cutlass	Mythical					
+Melee	Default	DV2	NoRarity					
+Melee	FlipKnifeShark	Flip Knife | Shark	Mythical					
+Melee	GoldenDV2	DV-2 | Golden	Mythical					
+Melee	Greatsword	Greatsword	Mythical					
+Melee	HalloweenKnife	Cursed Shiv	Mythical					
+Melee	IceDagger	Ice Dagger	Mythical					
+Melee	Kukri	Kukri	Mythical					
+Melee	M9Fade	M9 | Fade	Mythical					
+Melee	PlasmaNinjato	Plasma Ninjato	Mythical					
+Melee	Scythe	Scythe	Mythical					
+Melee	XR7	M9 | XR7	Mythical					
+Melee	Zenith	Butterfly | Knife Zenith	Mythical					
+Mosin	Default	Mosin-Nagant Sniper Rifle	NoRarity				Base	
+Mosin	SkullHunter	Mosin-Nagant Sniper Rifle | Skull Hunter	Legendary				Base	DefaultFrontMosin,DefaultStockMosin
+Mosin	Tiger	Mosin-Nagant Sniper Rifle | Tiger	Rare				Base	DefaultFrontMosin,DefaultStockMosin
+Mosin	WhiteDeath	Mosin-Nagant Sniper Rifle | Gold	Legendary				Base	DefaultFrontMosin,DefaultStockMosin
+MotorcycleHelmet	Default	Motorcycle Helmet	NoRarity				Base	
+MotorcycleHelmet	SpaceSuit	Motorcycle Helmet | Space Suit	UnCommon				Base	9x19MP443MAG,ItemType,MotorcycleHelmetVisor,Type
+MotorcycleHelmetVisor	Default	Motorcycle Helmet Visor	NoRarity				Base	
+MotorcycleHelmetVisor	SpaceSuit	Motorcycle Helmet Visor | Space Suit	UnCommon				Base	
+MuzzleBrakeAKM	AnodizedRed	AKM Muzzle Brake | Anodized Red	Epic				Base	
+MuzzleBrakeAKM	Default	AKM Muzzle Brake	NoRarity				Base	
+MuzzleGripGroza	Default	Groza Muzzle Grip	NoRarity				Base	
+MuzzleGripGroza	Zenith	Muzzle Grip Groza | Zenith	Epic				Base	
+NagantRevolver	Default	Nagant Revolver	NoRarity				Base	
+NagantRevolver	Halloween	Nagant Revolver | Halloween	Common				Base	
+PBS1	Default	PBS-1 Rifle Suppressor	NoRarity				Base	
+PBS1	Zenith	PBS-1 | Zenith	Epic				Base	
+PEQ15	Blackout	PEQ15 | Blackout	Epic				Base	
+PEQ15	Default	PEQ15	NoRarity				Base	
+PKM	Default	PKM	NoRarity				Alt,Base	
+PKM	Thunder	PKM | Thunder	Epic				Base,Alt	20Rnd556,30rndFAL,AmmoBoxPKM100rnd,FrontPKM,HandleAKMN,HandleFAL,Mag556,Mag556Rnd100,PMAG10rnd,PolymerStockFAL,StockPKM,TacticalFrontFAL
+PMAG10rnd	Default	5.56x45 10-rounds PMag	NoRarity				SurfaceAppearance	
+PMAG10rnd	MTREX	5.56x45 10-rounds PMag  | MTREX	Epic				Base	
+PMAG10rnd	Pool	5.56x45 10-rounds PMag  | Pool	UnCommon				Base	
+PPSH41	Arctic	PPSH-41 | Arctic	Epic				Base	762x25MAG,762x25Rnd71Mag,StockPPSH41
+PPSH41	Default	PPSH-41	NoRarity				Base	
+PPSH41	Nutcracker	PPSH-41 | Nutcracker	Legendary				Base	762x25MAG,StockPPSH41
+PPSH41	Red40	PPSH-41 | Red40	UnCommon				Base	762x25MAG,762x25Rnd71Mag,StockPPSH41
+Pantsir3	Default	Pantsir-3	NoRarity				Base	
+Pantsir3	Zenith	Pantsir-3 | Zenith	Epic				Base	
+PolymerStockAKMN	AnodizedRed	Polymer AKMN Stock | Anodized Red	Epic				Base	
+PolymerStockAKMN	Default	Polymer AKMN Stock	NoRarity				Base	
+PolymerStockAKMN	DeltaAnime	Polymer AKMN Stock | 囁�	Mythical				Base	
+PolymerStockAKMN	Valentine	Polymer AKMN Stock | Valentine	Legendary				Base	
+PolymerStockFAL	Dart	Polymer FAL Stock | Dart Blaster	Rare				Base	
+PolymerStockFAL	Default	Polymer FN FAL Stock	NoRarity				Base	
+QuadNVG	Blackout	Quad Night Vision Goggles | Blackout	Epic				Base	
+QuadNVG	Default	Quad Night Vision Goggles	NoRarity				Base	
+R700	AnodizedRed	R700 | Anodized Red	Epic				Base	FrontTimberwolf,MagR700,StockA5
+R700	Cyan01	R700 | Cyan-01	Epic				Base	FlashHiderM4,FrontMK12,FrontTimberwolf,Mag556,MagR700,StockA5,StockMK12,TimberWolfSuppressor
+R700	Default	R700	NoRarity				Base	
+R700	Rift	R700 | Rift	Legendary				Base	FrontTimberwolf,MagR700,StockA5,TimberWolfSuppressor
+R700	Zenith	R700 | Zenith	Epic				Base	FlashHiderM4,FrontM4,FrontTimberwolf,Mag556,MagR700,StockA5,StockM4,TimberWolfSuppressor
+RGD5	Default	RGD-5	NoRarity				Base	
+RGD5	Pumpkin	RGD5 Grenade | Pumpkin	Common				Base	
+RGO	Default	RGO	NoRarity				Base	
+RGO	WaterBalloon	RGO Grenade | Water Balloon	Common				Base	
+Reapir	Default	Reap-IR 35	NoRarity				LensCap,Mount,Base	
+Reapir	Zenith	Reap-IR | Zenith	Epic				LensCap,Base,Mount	
+SOCOM556	Blackout	SOCOM556-RC2 Suppressor | Blackout	Epic				Base	
+SOCOM556	Default	SOCOM556-RC2 Suppressor	NoRarity				Base	
+SOCOM556	Zenith	SOCOM556-RC2 Suppressor | Zenith	Epic				Base	
+SVD	Default	SVD	NoRarity				Base	
+SVD	Galaxy	SVD | Galaxy	UnCommon				Base	762x54Rnd10Mag,FrontSVD,StockSVD
+SVD	Harpoon	SVD | Harpoon	Legendary				Base	762x54Rnd20Mag,TacticalFrontSVD,TacticalStockSVD
+SVD	Hunter	SVD | Hunter	Rare				Base	762x54Rnd10Mag,762x54Rnd20Mag,FrontSVD,StockSVD,TacticalFrontSVD,TacticalStockSVD
+SVD	Marble	SVD | Marble	Common				Base	762x54Rnd10Mag,FrontSVD,StockSVD
+SVD	Permafrost	SVD | Permafrost	Epic				Base	762x54Rnd10Mag,FrontSVD,StockSVD
+SVD	Thunder	SVD | Thunder	Epic				Base	762x54Rnd10Mag,FrontSVD,StockSVD
+Saiga12	Default	Saiga 12	NoRarity				Base	
+Saiga12	Valentine	Saiga 12 | Valentine	Legendary				Base	30rndFAL,FlashHiderM4,FrontADAR,FrontSaiga,HandleAKMN,HandleFAL,PMAG10rnd,PolymerStockAKMN,PolymerStockFAL,SaigaMag5rnd,StockADAR,TacticalFrontFAL
+SaigaMag5rnd	Default	12ga 5-rounds Mag	NoRarity				Base	
+SaigaMag5rnd	Valentine	12ga 5-rounds Mag | Valentine	Legendary				Base	
+SpecopsBackpack	Default	Special Operations Backpack 30L	NoRarity				Base	
+SpecopsBackpack	EDF	EDF Special Operations Backpack 30L	Common				Base	
+SpecopsBackpack	XR7	Special Operations Backpack 30L  | XR7	Epic				Base	
+StockA5	AnodizedRed	A5 Stock | Anodized Red	Epic				Base	
+StockA5	Cyan01	A5 Stock | Cyan-01	Epic				Base	
+StockA5	Default	R700 A5 Stock	NoRarity				Base	
+StockA5	Rift	A5 Stock | Rift	Legendary				Base	
+StockA5	Zenith	A5 Stock | Zenith	Epic				Base	
+StockADAR	Default	ADAR 2-15 Stock	NoRarity				Base	
+StockADAR	MTREX	ADAR 2-15 Stock | MTREX	Epic				Base	
+StockADAR	Pool	ADAR 2-15 Stock | Pool	UnCommon				Base	
+StockAKMN	Adibass	AKMN Stock | Adibass	Epic				Base	
+StockAKMN	Ancient	AKMN Stock | Ancient	Rare				Base	
+StockAKMN	Default	AKMN Stock	NoRarity				Base	
+StockAKMN	Hunter	AKMN Stock | Hunter	Rare				Base	
+StockAsVal	AnodizedRed	AS Val Stock | Anodized Red	Epic				Base	
+StockAsVal	CyberRecon	AS Val Stock | Cyber Recon	Rare				Base	
+StockAsVal	Default	AS Val Stock	NoRarity				Base	
+StockAsVal	GiftWrap	AS Val Stock | Gift Wrap	UnCommon				Base	
+StockAsVal	PeaceWalker	AS Val Stock | Peace Walker	UnCommon				Base	
+StockAsVal	Shoreline	AS Val Stock | Shoreline	Rare				Base	
+StockAsVal	Zenith	AS Val Stock | Zenith	Epic				Base	
+StockFAL	CaseHardened	FAL Stock | Case Hardened	Rare				Base	
+StockFAL	Default	FN FAL Stock	NoRarity				Base	
+StockFAL	Heli	FAL Stock | Heli	Rare				Base	
+StockIZh12	Default	IZh-12 Stock	NoRarity				Base	
+StockIZh12	PeaceWalker	IZh-12 Stock | Peace Walker	UnCommon				Base	
+StockIZh12	Red40	IZh-12 Stock | Red40	UnCommon				Base	
+StockIZh81	Default	IZh-81 Stock	NoRarity					
+StockIZh81	Gingerbread	IZh-81 Stock | Gingerbread	Rare				Base	
+StockIZh81	Oasis	IZh-81 Stock | Oasis	Common				Base	
+StockIZh81	Watergun	IZh-81 Stock | Super Wetter	Epic				Base	
+StockM4	Apollo	M4A1 | Apollo	Legendary				Base	
+StockM4	Default	M4 Stock	NoRarity				Base	
+StockM4	Devil	M4 Stock | Devil	Mythical				Base	
+StockM4	Diablo	M4 Stock | El Diablo	Epic				Base	
+StockM4	Freedom	M4 Stock | Freedom Fighter	Epic				Base	
+StockM4	Pumpkin	M4 Stock | Pumpkin	UnCommon				Base	
+StockM4	Shark	M4 Stock | Shark	Legendary				Base	
+StockM4	Tan	M4 Stock | Tan	Common				Base	
+StockM4	Warhawk	M4 Stock | Warhawk	Legendary				Base	
+StockM4	Zenith	M4 Stock | Zenith	Epic				Base	
+StockMK12	Default	MK12 Stock	NoRarity				Base	
+StockMK12	XR7	MK12 Stock | XR7	Epic				Base	
+StockMK12	Zenith	MK12 Stock | Zenith	Epic				Base	
+StockMP5	Default	MP5 Stock	NoRarity				Base	
+StockMP5	Permafrost	MP5 Stock | Permafrost	Epic				Base	
+StockMP5	XR7	MP5 Stock | XR7	Epic				Base	
+StockPKM	Default	PKM Stock	NoRarity				Base	
+StockPKM	Thunder	PKM Stock | Thunder	Epic				Base	
+StockPPSH41	Arctic	PPSh41 Stock | Arctic Stalker	Epic				Base	
+StockPPSH41	Default	PPSH41 Stock	NoRarity				Base	
+StockPPSH41	Nutcracker	PPSh41 Stock | Nutcracker	Legendary				Base	
+StockPPSH41	Red40	PPSh41 Stock | Red40	UnCommon				Base	
+StockPT1AKMN	Default	PT-1 Stock	NoRarity				Base	
+StockPT1AKMN	Serpant	PT-1 Stock | XSerpant	Epic				Base	
+StockPT1AKMN	Zenith	PT-1 Stock | Zenith	Epic				Base	
+StockSVD	Default	SVD Stock	NoRarity				Base	
+StockSVD	Galaxy	SVD Stock | Galaxy	UnCommon				Base	
+StockSVD	Hunter	SVD Stock | Hunter	Rare				Base	
+StockSVD	Marble	SVD Stock | Marble	Common				Base	
+StockSVD	Permafrost	SVD Stock | Permafrost	Epic				Base	
+StockSVD	Thunder	SVD Stock | Thunder	Epic				Base	
+TFZ0	Default	Task Force Zero MOD-0	NoRarity				Base,Slide	
+TFZ0	Zapper	Task Force Zero MOD-0 | Zapper	UnCommon				Base,Slide	
+TFZ98S	Default	Task Force Zero MOD-98 Suppressed	NoRarity				Stock,Base,Upper	
+TFZ98S	Saboteur	TFZ98S | Saboteur	Common				Base,Stock,Upper	Action,EmitCount,LinearVelocity,MagTFZ98,Type,UseTime
+TFZ98S	XR7	TFZ98S | XR7	Epic				Upper,Stock,Base	
+TFZ98S	Zenith	TFZ98S | Zenith	Epic				Base,Stock,Upper	
+TORS	Default	TOR-S Helmet	NoRarity				Base	
+TORS	XR7	TOR-S | XR7	Epic				Base	
+TOZ106	Default	TOZ-106	NoRarity				Base	
+TOZ106	Soaker	TOZ-106 | Soaker	UnCommon				Base	
+TT33	Default	TT-33 Tokarev Pistol	NoRarity				Base,Slide	
+TT33	Soaker	TT-33 Tokarev Pistol | Soaker	Common				Base,Slide	762x25TTMAG,9x18vzMag,Container,EmitCount,LinearVelocity,MaskaVisor,Shirt,Type
+TT33	Watergun	TT-33 Tokarev Pistol | Super Wetter	Epic				Slide,Base	762x25TTMAG,EmitCount,LinearVelocity,MagTOZ106,Number,Pants,Speaking,UseTime
+TacticalFrontAKMN	AnodizedRed	Tactical AKMN Front Assembly | Anodized Red	Epic				Base	
+TacticalFrontAKMN	Anton	Anton's Tactical AKMN Front Assembly	Epic				Base	
+TacticalFrontAKMN	Default	AKMN Front Assembly	NoRarity				Base	
+TacticalFrontAKMN	Serpant	Tactical AKMN Front Assembly | XSerpant	Epic				Base	
+TacticalFrontAKMN	Zenith	Tactical AKMN Front Assembly | Zenith	Epic				Base	
+TacticalFrontFAL	Dart	Tactical FAL Front Assembly | Dart Blaster	Rare				Rail,Base	
+TacticalFrontFAL	Default	FN FAL Front Assembly	NoRarity				Base,Rail	
+TacticalFrontSVD	Default	SVD Front Assembly	NoRarity					
+TacticalFrontSVD	Harpoon	Tactical SVD Front Assembly | Harpoon	Legendary					
+TacticalStockSVD	Default	SVD Stock	NoRarity					
+TacticalStockSVD	Harpoon	Tactical SVD Stock | Harpoon	Legendary					
+TankCap	Default	Tanker Cap	NoRarity					
+TankCap	SantaHat	Santa's Hat	Rare					
+TimberWolfSuppressor	Cyan01	Timberwolf Suppressor | Cyan-01	Epic				Base	
+TimberWolfSuppressor	Default	Timberwolf Suppressor	NoRarity				Base	
+TimberWolfSuppressor	Zenith	Timberwolf Suppressor | Zenith	Epic				Base	
+TitanShield	Anarchy	Spartan Tech Titan Shield | Anarchy	Epic				Base	
+TitanShield	Default	Spartan Tech Titan Shield	NoRarity				Base	
+Tortilla	Blackout	Tortilla Backpack 45L | Blackout	Epic				Base	
+Tortilla	Default	Tortilla Backpack 45L	NoRarity				Base	
+VZ61	Default	Škorpion vz. 61	NoRarity				Base	
+VZ61	GiftWrap	Škorpion vz. 61 | Gift Wrap	UnCommon				Base	
+WastelandPants	Arctic	Wasteland Pants | Arctic Commando	Epic				Base	
+WastelandPants	Crusader	Wasteland Pants | Crusader	Epic				Base	
+WastelandPants	Default	Wasteland Pants	NoRarity				Base	
+WastelandPants	Jack	Wasteland Pants | Jack	Epic				Base	
+WastelandPants	SantaCommando	Wasteland Pants | Santa Commando	Common				Base	
+WastelandPants	SummerPants	Summer Pants	Rare					
+WastelandPants	VampHPants	Vamp Hunter Pants	Epic					
+WastelandShirt	Arctic	Wasteland Shirt | Arctic Commando	Epic				Base	
+WastelandShirt	Crusader	Wasteland Shirt | Crusader	Epic				Base	
+WastelandShirt	Default	Wasteland Shirt	NoRarity				Base	
+WastelandShirt	Jack	Wasteland Shirt | Jack	Epic				Base	
+WastelandShirt	SantaCommando	Wasteland Shirt | Santa Commando	Common				Base	
+WastelandShirt	SummerShirt	Summer Shirt	Rare					
+WastelandShirt	VampHShirt	Vamp Hunter Shirt	Epic					
+ZSh	Default	ZSh-1-2M Helmet	NoRarity				Base	
+ZSh	SkullRider	ZSh-1-2M Helmet | Skull Rider	Common				Base	
+ZSh	Woodland	ZSh-1-2M Helmet | Woodland	Common				Base	
+ZShVisor	Default	ZSh-1-2M Visor	NoRarity				Base	
+ZShVisor	SkullRider	ZSh-1-2M Visor | Skull Rider	Common				Base	
