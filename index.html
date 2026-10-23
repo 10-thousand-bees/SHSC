@@ -73,20 +73,20 @@ label.btn input{display:none}
   <section style="flex:1;min-height:0">
     <h2>Configs salvas</h2>
     <div id="cfgs" style="display:flex;flex-direction:column;gap:6px"></div>
-    <div class="mut" style="margin-top:6px">★ = config ativa (o script carrega esta).</div>
+    <div class="mut" style="margin-top:6px">Configs salvas apenas neste navegador. A estrela é local e não ativa a config no Matcha automaticamente.</div>
   </section>
 </aside>
 
 <main>
   <div class="bar">
     <div class="row">
-      <input type="text" id="name" placeholder="nome da config" style="max-width:240px">
-      <button class="primary" id="save">Salvar no workspace</button>
-      <button id="saveActive">Salvar e ativar</button>
+      <input type="text" id="name" value="SkinConfig" readonly style="max-width:240px">
+      <button class="primary" id="save">Baixar SkinConfig.cfg</button>
+      <button id="saveActive">Salvar no navegador</button>
       <button id="dl">Baixar .cfg</button>
       <button id="copy">Copiar</button>
       <label class="btn">Importar<input type="file" id="imp" accept=".cfg,.txt,.lua"></label>
-      <button class="danger" id="clear">Limpar tudo</button>
+      <button class="danger" id="clear">Limpar escolhas</button>
       <span class="mut" id="count"></span>
     </div>
     <div>
@@ -123,11 +123,66 @@ const el = (tag, props = {}, ...kids) => {
 
 const S = { items: new Map(), parts: new Set(), choices: {}, configs: [], active: null, current: '', source: 'none', skinCount: 0 };
 
+const STORE_CONFIGS = 'skinChanger.configs.v1';
+const STORE_ACTIVE = 'skinChanger.active.v1';
+const STORE_CATALOG = 'skinChanger.catalogOverride.v1';
+
+function storedConfigs() {
+  try { return JSON.parse(localStorage.getItem(STORE_CONFIGS) || '{}'); } catch { return {}; }
+}
+function storedActive() { return localStorage.getItem(STORE_ACTIVE) || null; }
+
 async function api(path, method = 'GET', body) {
-  const r = await fetch(path, { method, headers: body ? { 'Content-Type': 'application/json' } : {}, body: body ? JSON.stringify(body) : undefined });
-  const j = await r.json().catch(() => ({}));
-  if (!r.ok) throw new Error(j.error || r.statusText);
-  return j;
+  const configs = storedConfigs();
+  if (method === 'GET' && path === '/api/state') {
+    let catalog = localStorage.getItem(STORE_CATALOG);
+    let catalogSource = catalog ? 'browser' : 'none';
+    if (!catalog) {
+      try {
+        const r = await fetch('./assets/catalog.txt', { cache: 'no-cache' });
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        catalog = await r.text();
+        catalogSource = 'GitHub Pages · assets/catalog.txt';
+      } catch (e) {
+        throw new Error('Não consegui carregar assets/catalog.txt. Confirme se o arquivo está nessa pasta do repositório e se o nome diferencia maiúsculas/minúsculas.');
+      }
+    }
+    return { workspace: 'GitHub Pages', catalog, catalogSource, configs: Object.keys(configs).sort(), active: storedActive() };
+  }
+  if (path === '/api/active' && method === 'POST') {
+    if (body?.name == null) localStorage.removeItem(STORE_ACTIVE);
+    else {
+      if (!Object.prototype.hasOwnProperty.call(configs, body.name)) throw new Error('Config não encontrada');
+      localStorage.setItem(STORE_ACTIVE, body.name);
+    }
+    return { ok: true, active: storedActive() };
+  }
+  if (path === '/api/catalog' && method === 'POST') {
+    if (typeof body?.text !== 'string' || !body.text.trim()) throw new Error('Catálogo vazio');
+    localStorage.setItem(STORE_CATALOG, body.text);
+    return { ok: true };
+  }
+  const m = path.match(/^\/api\/configs\/(.+)$/);
+  if (m) {
+    const name = decodeURIComponent(m[1]);
+    if (method === 'GET') {
+      if (!(name in configs)) throw new Error('Config não encontrada neste navegador');
+      return { name, text: configs[name] };
+    }
+    if (method === 'PUT') {
+      if (typeof body?.text !== 'string') throw new Error('Texto ausente');
+      configs[name] = body.text;
+      localStorage.setItem(STORE_CONFIGS, JSON.stringify(configs));
+      return { ok: true, configs: Object.keys(configs).sort() };
+    }
+    if (method === 'DELETE') {
+      delete configs[name];
+      localStorage.setItem(STORE_CONFIGS, JSON.stringify(configs));
+      if (storedActive() === name) localStorage.removeItem(STORE_ACTIVE);
+      return { ok: true, configs: Object.keys(configs).sort(), active: storedActive() };
+    }
+  }
+  throw new Error('Ação não suportada no modo online');
 }
 let tt;
 function toast(msg, err) {
@@ -251,9 +306,9 @@ function render() {
   }
   $('#count').textContent = `${Object.keys(S.choices).length} itens configurados`;
   $('#preview').textContent = toCfg();
-  const srcTxt = { workspace: 'catalog.txt do workspace', bundled: 'catálogo embutido no site', none: '' }[S.source];
+  const srcTxt = S.source === 'none' ? '' : S.source;
   $('#catInfo').textContent = S.source === 'none'
-    ? 'Sem catálogo: carregue o catalog.txt.'
+    ? 'Sem catálogo: confira assets/catalog.txt no repositório.'
     : `${S.items.size} itens · ${S.skinCount} skins · ${srcTxt}.`;
   // configs
   const cl = $('#cfgs'); cl.replaceChildren();
@@ -275,16 +330,29 @@ async function setActive(n) {
   const r = await api('/api/active', 'POST', { name: n === S.active ? null : n });
   S.active = r.active; render(); toast(S.active ? `Ativa: ${S.active}` : 'Nenhuma config ativa');
 }
+function downloadConfig(text) {
+  const blob = new Blob([text], { type: 'text/plain;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const a = el('a', { href: url, download: 'SkinConfig.cfg' });
+  document.body.append(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
 async function save(activate) {
-  const n = $('#name').value.trim();
-  if (!/^[\w\-. ]{1,60}$/.test(n) || n.startsWith('.')) throw new Error('nome inválido (letras, números, espaço, - _ .)');
-  const r = await api('/api/configs/' + encodeURIComponent(n), 'PUT', { text: toCfg() });
-  S.configs = r.configs; S.current = n;
+  const n = 'SkinConfig';
+  const text = toCfg();
+  const r = await api('/api/configs/' + encodeURIComponent(n), 'PUT', { text });
+  S.configs = r.configs; S.current = n; $('#name').value = n;
   if (activate) { const a = await api('/api/active', 'POST', { name: n }); S.active = a.active; }
-  render(); toast(activate ? `Salva e ativada: ${n}` : `Salva: ${n}`);
+  render();
+  if (!activate) {
+    downloadConfig(text);
+    toast('Baixando SkinConfig.cfg — mova para a pasta Configs do Matcha');
+  } else {
+    toast('Config salva neste navegador');
+  }
 }
 async function applyState(st) {
-  $('#ws').value = st.workspace; $('#wsInfo').textContent = st.workspace;
+  $('#wsInfo') && ($('#wsInfo').textContent = st.workspace || 'GitHub Pages');
   S.configs = st.configs; S.active = st.active; loadCatalog(st.catalog, st.catalogSource);
 }
 
@@ -292,11 +360,7 @@ $('#save').onclick = guarded(() => save(false));
 $('#saveActive').onclick = guarded(() => save(true));
 $('#clear').onclick = () => { if (confirm('Limpar todas as escolhas?')) { S.choices = {}; render(); } };
 $('#copy').onclick = guarded(async () => { await navigator.clipboard.writeText(toCfg()); toast('Copiado'); });
-$('#dl').onclick = () => {
-  const n = ($('#name').value.trim() || 'skinConfig').replace(/[^\w\-. ]/g, '_');
-  const a = el('a', { href: URL.createObjectURL(new Blob([toCfg()], { type: 'text/plain' })), download: n + '.cfg' });
-  a.click(); URL.revokeObjectURL(a.href);
-};
+$('#dl').onclick = () => downloadConfig(toCfg());
 $('#imp').onchange = guarded(async e => {
   const f = e.target.files[0]; if (!f) return;
   S.choices = fromCfg(await f.text());
@@ -306,12 +370,9 @@ $('#catFile').onchange = guarded(async e => {
   const f = e.target.files[0]; if (!f) return;
   const text = await f.text(); e.target.value = '';
   await api('/api/catalog', 'POST', { text });
-  loadCatalog(text, 'workspace'); render(); toast('Catálogo carregado e salvo no workspace');
+  loadCatalog(text, 'workspace'); render(); toast('Catálogo alternativo salvo neste navegador');
 });
-$('#wsSave').onclick = guarded(async () => {
-  const st = await api('/api/workspace', 'POST', { path: $('#ws').value.trim() });
-  await applyState(st); S.current = ''; render(); toast('Workspace atualizado');
-});
+// No GitHub Pages o navegador não pode gravar diretamente em C:\\matcha\\workspace.
 $('#search').oninput = render;
 $('#onlySel').onchange = render;
 $('#showParts').onchange = render;
